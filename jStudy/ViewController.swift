@@ -13,8 +13,31 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        read()
+        
+        
     }
 
+    func read(){
+        let url = Bundle.main.url(forResource: "hiragana", withExtension: "json")!
+        do {
+            let jsonData = try! Data(contentsOf: url)
+//            let json = try JSONSerialization.jsonObject(with: jsonData) as! [[[String: Any]]]
+//            let json = try JSONSerialization.jsonObject(with: jsonData, options: []) as? [[String: Any]]
+//            print(json)
+            
+            
+            let decoder = JSONDecoder()
+            let x = try decoder.decode([Kana].self, from: jsonData)
+            
+            print(x)
+            
+        }
+        catch {
+            print(error)
+        }
+    }
+    
 
 }
 

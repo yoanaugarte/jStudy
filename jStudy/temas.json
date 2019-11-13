@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Tema 1",
+        "lesson_id": 1,
+        "words": [
+            {
+                "word_id" : 100,
+                "kana": "あの",
+                "definitions": [
+                    "um"
+                ]
+            }
+        ],
+        "grammar": [
+            "id": 3,
+            "title": "は",
+            "alternate": "",
+            "meaning": "denotes sentence topic",
+            "structure": "Sentence topic + <strong>は</strong>, Pronounced 'わ/wa'",
+            "yomikata": "は",
+            "example_sentences": [
+                {
+                    "id": 9,
+                    "structure": "は",
+                    "japanese": "私（わたし）はトムです。",
+                    "english": "I <strong>(as the topic of this sentence)</strong> am Tom.",
+                    "alternate": ""
+                }
+            ]
+        ]
+    }
+]
