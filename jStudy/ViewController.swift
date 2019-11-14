@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var temas = [Lesson]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         read()
-        
+        //let vc = self.storyboard?.instantiateViewController(withIdentifier: "TutorialInicialVC") as! TutorialInicialVC
         
     }
+    
+    @IBAction func abrirExamen(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ExamViewController") as! ExamViewController
+        vc.examen = Examen(temas[0], .vocabulario)
+        let navController = UINavigationController(rootViewController: vc)
+        navController.modalPresentationStyle = .fullScreen
+        self.present(navController, animated: true, completion: nil)
+    }
+    
 
     func read(){
-        let url = Bundle.main.url(forResource: "hiragana", withExtension: "json")!
+        let url = Bundle.main.url(forResource: "temas", withExtension: "json")!
         do {
             let jsonData = try! Data(contentsOf: url)
 //            let json = try JSONSerialization.jsonObject(with: jsonData) as! [[[String: Any]]]
@@ -28,8 +39,8 @@ class ViewController: UIViewController {
             
             
             let decoder = JSONDecoder()
-            let x = try decoder.decode([Kana].self, from: jsonData)
-            
+            let x = try decoder.decode([Lesson].self, from: jsonData)
+            temas = x
             print(x)
             
         }

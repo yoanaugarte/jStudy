@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		38478438237C03F400C6DC13 /* katakana.json in Resources */ = {isa = PBXBuildFile; fileRef = 38478437237C03F400C6DC13 /* katakana.json */; };
 		3847843A237C0ABA00C6DC13 /* temas.json in Resources */ = {isa = PBXBuildFile; fileRef = 38478439237C0ABA00C6DC13 /* temas.json */; };
+		3847843C237D39E600C6DC13 /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847843B237D39E600C6DC13 /* ExamViewController.swift */; };
+		38478442237D86D700C6DC13 /* ListaVocabularioTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38478441237D86D700C6DC13 /* ListaVocabularioTVC.swift */; };
+		38478445237D871E00C6DC13 /* VocabularioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38478443237D871E00C6DC13 /* VocabularioCell.swift */; };
+		38478446237D871E00C6DC13 /* VocabularioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38478444237D871E00C6DC13 /* VocabularioCell.xib */; };
 		38D423D3237AE163005DA6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D423D2237AE163005DA6F3 /* AppDelegate.swift */; };
 		38D423D5237AE163005DA6F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D423D4237AE163005DA6F3 /* SceneDelegate.swift */; };
 		38D423D7237AE163005DA6F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D423D6237AE163005DA6F3 /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		38478437237C03F400C6DC13 /* katakana.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = katakana.json; sourceTree = "<group>"; };
 		38478439237C0ABA00C6DC13 /* temas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = temas.json; sourceTree = "<group>"; };
+		3847843B237D39E600C6DC13 /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		38478441237D86D700C6DC13 /* ListaVocabularioTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaVocabularioTVC.swift; sourceTree = "<group>"; };
+		38478443237D871E00C6DC13 /* VocabularioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularioCell.swift; sourceTree = "<group>"; };
+		38478444237D871E00C6DC13 /* VocabularioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VocabularioCell.xib; sourceTree = "<group>"; };
 		38D423CF237AE163005DA6F3 /* jStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D423D2237AE163005DA6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D423D4237AE163005DA6F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +79,10 @@
 				38D423D4237AE163005DA6F3 /* SceneDelegate.swift */,
 				38D423D6237AE163005DA6F3 /* ViewController.swift */,
 				38D423E8237AE805005DA6F3 /* Modelos.swift */,
+				3847843B237D39E600C6DC13 /* ExamViewController.swift */,
+				38478441237D86D700C6DC13 /* ListaVocabularioTVC.swift */,
+				38478443237D871E00C6DC13 /* VocabularioCell.swift */,
+				38478444237D871E00C6DC13 /* VocabularioCell.xib */,
 				38D423D8237AE163005DA6F3 /* Main.storyboard */,
 				38D423DB237AE164005DA6F3 /* Assets.xcassets */,
 				38D423DD237AE164005DA6F3 /* LaunchScreen.storyboard */,
@@ -137,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38478446237D871E00C6DC13 /* VocabularioCell.xib in Resources */,
 				3847843A237C0ABA00C6DC13 /* temas.json in Resources */,
 				38D423E7237AE538005DA6F3 /* hiragana.json in Resources */,
 				38D423DF237AE164005DA6F3 /* LaunchScreen.storyboard in Resources */,
@@ -153,10 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38478445237D871E00C6DC13 /* VocabularioCell.swift in Sources */,
 				38D423D7237AE163005DA6F3 /* ViewController.swift in Sources */,
 				38D423D3237AE163005DA6F3 /* AppDelegate.swift in Sources */,
 				38D423D5237AE163005DA6F3 /* SceneDelegate.swift in Sources */,
 				38D423E9237AE805005DA6F3 /* Modelos.swift in Sources */,
+				3847843C237D39E600C6DC13 /* ExamViewController.swift in Sources */,
+				38478442237D86D700C6DC13 /* ListaVocabularioTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
