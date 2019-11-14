@@ -27,6 +27,9 @@
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="revisar"/>
+                                <connections>
+                                    <action selector="abrirVocabulario:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOS-cW-2SY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -112,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="1882.608695652174" y="115.84821428571428"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Lista VocabularioTVC-->
         <scene sceneID="RCd-gb-Aal">
             <objects>
-                <tableViewController id="UQi-3S-roM" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ListaVocabularioTVC" id="UQi-3S-roM" customClass="ListaVocabularioTVC" customModule="jStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dk5-Sj-D9h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,7 +138,13 @@
                             <outlet property="delegate" destination="UQi-3S-roM" id="CxD-jM-rL0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="5Pl-e4-7zf"/>
+                    <navigationItem key="navigationItem" id="5Pl-e4-7zf">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="3ky-5Z-Fq1">
+                            <connections>
+                                <action selector="cerrar:" destination="UQi-3S-roM" id="0EO-RA-94K"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zjn-ag-E2G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

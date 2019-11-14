@@ -28,6 +28,16 @@ class ViewController: UIViewController {
         self.present(navController, animated: true, completion: nil)
     }
     
+    @IBAction func abrirVocabulario(_ sender: Any) {
+        //ListaVocabularioTVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ListaVocabularioTVC") as! ListaVocabularioTVC
+        vc.deck = Examen(temas[0], .vocabulario).deck
+        let navController = UINavigationController(rootViewController: vc)
+        navController.modalPresentationStyle = .fullScreen
+        self.present(navController, animated: true, completion: nil)
+    }
+    
+    
 
     func read(){
         let url = Bundle.main.url(forResource: "temas", withExtension: "json")!

@@ -9,7 +9,14 @@
 import UIKit
 
 class ListaVocabularioTVC: UITableViewController {
-
+    
+    var deck : [Flashcard]!
+    
+    @IBAction func cerrar(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,14 +32,17 @@ class ListaVocabularioTVC: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return deck.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! VocabularioCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "VocabularioCell", for: indexPath) as! VocabularioCell
 
-        // Configure the cell...
+        let f = deck[indexPath.row]
+        
+        cell.japaneseLBL.text = f.back
+        cell.spanishLBL.text = f.front
 
         return cell
     }
