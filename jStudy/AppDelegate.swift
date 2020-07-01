@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  jStudy
 //
-//  Created by Yoana Ugarte on 12/11/2019.
-//  Copyright © 2019 Yoana Ugarte. All rights reserved.
+//  Created by Yoana Ugarte García on 03/04/2020.
+//  Copyright © 2020 Miotek. All rights reserved.
 //
 
 import UIKit

@@ -1,0 +1,93 @@
+[
+    {
+        "id": 17,
+        "nombre": "Tema 17",
+        "vocabulario": [
+        {
+            "id": 1,
+        "japones": "おぼえます",
+        "romaji": "oboemasu",
+        "significado": "aprender de memoria"
+        },
+        {
+            "id": 2,
+            "japones": "わすれます",
+            "romaji": "wasuremasu",
+            "significado": "olvidar"
+        },
+        {
+            "id": 3,
+            "japones": "なくします",
+            "romaji": "nakushimasu",
+            "significado": "perder (objeto)"
+        },
+        {
+            "id": 4,
+            "japones": "(レポートを)だします",
+            "romaji": "(repo-to o) dashimasu",
+            "significado": "entregar, presentar (el informe)"
+        },
+        {
+            "id": 5,
+            "japones": "はらいます",
+            "romaji": "haraimasu",
+            "significado": "pagar"
+        },
+        {
+            "id": 6,
+            "japones": "でかけます",
+            "romaji": "dekakemasu",
+            "significado": "salir"
+        },
+        {
+            "id": 7,
+            "japones": "ぬぎます",
+            "romaji": "nugimasu",
+            "significado": "quitarse"
+        },
+        {
+            "id": 8,
+            "japones": "もって いきます",
+            "romaji": "motte ikimasu",
+            "significado": "llevar (algo)"
+        },
+        {
+            "id": 9,
+            "japones": "もって きます",
+            "romaji": "motte kimasu",
+            "significado": "traer (algo)"
+        },
+        {
+            "id": 10,
+            "japones": "しんぱい します",
+            "romaji": "shinpai shimasu",
+            "significado": "preocuparse"
+        },
+        {
+            "id": 11,
+            "japones": "ざんきょう します",
+            "romaji": "zangyou shimasu",
+            "significado": "trabajar hora extra"
+        },
+        {
+            "id": 12,
+            "japones": "しゅっちょう します",
+            "romaji": "succhou shimasu",
+            "significado": "ir de viaje de negocios"
+        },
+        {
+            "id": 13,
+            "japones": "(くすり を) のみます",
+            "romaji": "(kusuri o) nomimasu",
+            "significado": "tomar (medicina)"
+        },
+        {
+            "id": 14,
+            "japones": "(くすり を) のみます",
+            "romaji": "(kusuri o) nomimasu",
+            "significado": "tomar (medicina)"
+        }
+        ]
+    }
+]
+

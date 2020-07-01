@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "jisho",
+        "grupos" : [
+            {
+                "id" : 1,
+                "nombre" : "G1 (i)",
+                "norma" : "Se quita imasu y se añade u",
+                "ejemplos" : [
+                    {
+                        "id" : 1,
+                        "verboMasu" : "かきます",
+                        "verboFV" : "かく"
+                    },
+                    {
+                        "id" : 2,
+                        "verboMasu" : "かいます",
+                        "verboFV" : "かう"
+                    }
+                ]
+            },
+            {
+                "id" : 2,
+                "nombre" : "G2 (e)",
+                "norma" : "Se cambia i por u (ki -> ku)",
+                "ejemplos" : [
+                    {
+                        "id" : 1,
+                        "verboMasu" : "かきます",
+                        "verboFV" : "かく"
+                    },
+                    {
+                        "id" : 2,
+                        "verboMasu" : "かいます",
+                        "verboFV" : "かう"
+                    }
+                ]
+            }
+        ]
+    }
+]
