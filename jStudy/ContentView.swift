@@ -10,11 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 50.0) {
-            Text("Temas")
-            Text("Gramática")
-            Text("Vocabulario")
+        NavigationView{
+            VStack(spacing: 50.0) {
+                NavigationLink(
+                  destination: TemaList()) {
+                    Text("Temas")
+                }
+                NavigationLink(
+                  destination: FormasVerbalesList()) {
+                    Text("Formas verbales")
+                }
+            }
+            
         }
+        
         
     }
 }

@@ -13,26 +13,23 @@ struct VocabularioList: View {
     var tema : Tema
     
     var body: some View {
-        NavigationView{
-            List {
-                        HStack(alignment: .center, spacing: 10.0) {
-                            Text("Japonés")
-                                .fontWeight(.heavy)
-                            Spacer()
-                            Text("Español")
-                                .fontWeight(.heavy)
-                        }
-                        .padding(.horizontal, 10.0)
-                        ForEach (tema.vocabulario) { p in
-                            VocabularioRow(palabra: p)
-                                .padding()
-                        }
-            //            .listRowInsets(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
-                        .frame(maxWidth: .infinity)
-                        
+        List {
+                    HStack(alignment: .center, spacing: 10.0) {
+                        Text("Japonés")
+                            .fontWeight(.heavy)
+                        Spacer()
+                        Text("Español")
+                            .fontWeight(.heavy)
                     }
-                    .navigationBarTitle(Text("Vocabulario"))
-        }
+                    .padding(.horizontal, 10.0)
+                    ForEach (tema.vocabulario) { p in
+                        VocabularioRow(palabra: p)
+                            .padding()
+                    }
+        //            .listRowInsets(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
+                    .frame(maxWidth: .infinity)
+            .navigationBarTitle("Vocabulario")
+                }
         
     }
     

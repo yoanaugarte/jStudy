@@ -9,6 +9,7 @@
 import Foundation
 
 let temaData: [Tema] = load("temaData.json")
+let formasVerbalesData: [FormaVerbal] = load("formasVerbalesData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

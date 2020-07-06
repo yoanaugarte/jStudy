@@ -14,11 +14,15 @@ struct TemaList: View {
     var body: some View {
         List{
             ForEach(temaData) { tema in
-                Text(tema.nombre)
-                .padding()
+                NavigationLink(
+                destination: TemaView(tema: tema)) {
+                    Text(tema.nombre)
+                    .padding()
+                }
+                
             }
         }
-//        .navigationBarTitle(Text("Temas"))
+        .navigationBarTitle(Text("Temas"))
     }
 }
 

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F08E9F824B35D340058C826 /* GrupoFVRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08E9F724B35D340058C826 /* GrupoFVRow.swift */; };
 		5F16CF7E24ACD8420033EF92 /* formasVerbalesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F16CF7D24ACD8420033EF92 /* formasVerbalesData.json */; };
+		5F2A61F124B360B5002CB1AF /* EjemploFVRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A61F024B360B5002CB1AF /* EjemploFVRow.swift */; };
+		5F2A61F324B3620E002CB1AF /* FormaVerbalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A61F224B3620E002CB1AF /* FormaVerbalView.swift */; };
+		5F2A61F524B3669A002CB1AF /* FormasVerbalesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2A61F424B3669A002CB1AF /* FormasVerbalesList.swift */; };
 		5F85800A24378A0B007E0173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85800924378A0B007E0173 /* AppDelegate.swift */; };
 		5F85800C24378A0B007E0173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85800B24378A0B007E0173 /* SceneDelegate.swift */; };
 		5F85800E24378A0B007E0173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85800D24378A0B007E0173 /* ContentView.swift */; };
@@ -26,7 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F08E9F724B35D340058C826 /* GrupoFVRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrupoFVRow.swift; sourceTree = "<group>"; };
 		5F16CF7D24ACD8420033EF92 /* formasVerbalesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = formasVerbalesData.json; sourceTree = "<group>"; };
+		5F2A61F024B360B5002CB1AF /* EjemploFVRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploFVRow.swift; sourceTree = "<group>"; };
+		5F2A61F224B3620E002CB1AF /* FormaVerbalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormaVerbalView.swift; sourceTree = "<group>"; };
+		5F2A61F424B3669A002CB1AF /* FormasVerbalesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormasVerbalesList.swift; sourceTree = "<group>"; };
 		5F85800624378A0B007E0173 /* jStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F85800924378A0B007E0173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F85800B24378A0B007E0173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +88,13 @@
 				5F85800B24378A0B007E0173 /* SceneDelegate.swift */,
 				5F85800D24378A0B007E0173 /* ContentView.swift */,
 				5F85802524379C72007E0173 /* TemaList.swift */,
+				5F2A61F424B3669A002CB1AF /* FormasVerbalesList.swift */,
 				5F85802D2437BAB8007E0173 /* GramaticaList.swift */,
 				5F85802F2437BB19007E0173 /* VocabularioList.swift */,
 				5F8580312437BB5A007E0173 /* VocabularioRow.swift */,
+				5F2A61F224B3620E002CB1AF /* FormaVerbalView.swift */,
+				5F08E9F724B35D340058C826 /* GrupoFVRow.swift */,
+				5F2A61F024B360B5002CB1AF /* EjemploFVRow.swift */,
 				5F8580332437D7AF007E0173 /* TemaView.swift */,
 				5F85802024379A2D007E0173 /* Models */,
 				5F85801D24378BB9007E0173 /* Resources */,
@@ -194,16 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2A61F124B360B5002CB1AF /* EjemploFVRow.swift in Sources */,
 				5F85800A24378A0B007E0173 /* AppDelegate.swift in Sources */,
 				5F85802224379A3C007E0173 /* Data.swift in Sources */,
 				5F85802A24379DC6007E0173 /* UserData.swift in Sources */,
 				5F85802E2437BAB8007E0173 /* GramaticaList.swift in Sources */,
 				5F85802424379A87007E0173 /* Tema.swift in Sources */,
+				5F2A61F324B3620E002CB1AF /* FormaVerbalView.swift in Sources */,
 				5F8580342437D7AF007E0173 /* TemaView.swift in Sources */,
 				5F85800C24378A0B007E0173 /* SceneDelegate.swift in Sources */,
 				5F8580322437BB5A007E0173 /* VocabularioRow.swift in Sources */,
+				5F08E9F824B35D340058C826 /* GrupoFVRow.swift in Sources */,
 				5F8580302437BB19007E0173 /* VocabularioList.swift in Sources */,
 				5F85802624379C72007E0173 /* TemaList.swift in Sources */,
+				5F2A61F524B3669A002CB1AF /* FormasVerbalesList.swift in Sources */,
 				5F85800E24378A0B007E0173 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +365,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Miotek.jStudy;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoana.jStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +386,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Miotek.jStudy;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoana.jStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

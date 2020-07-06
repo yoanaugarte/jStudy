@@ -6,7 +6,7 @@
             {
                 "id" : 1,
                 "nombre" : "G1 (i)",
-                "norma" : "Se quita imasu y se añade u",
+                "norma" : "Se cambia i por u (ki -> ku)",
                 "ejemplos" : [
                     {
                         "id" : 1,
@@ -23,17 +23,34 @@
             {
                 "id" : 2,
                 "nombre" : "G2 (e)",
-                "norma" : "Se cambia i por u (ki -> ku)",
+                "norma" : "Se quita masu y se añade ru",
                 "ejemplos" : [
                     {
                         "id" : 1,
-                        "verboMasu" : "かきます",
-                        "verboFV" : "かく"
+                        "verboMasu" : "たべます",
+                        "verboFV" : "たべる"
                     },
                     {
                         "id" : 2,
-                        "verboMasu" : "かいます",
-                        "verboFV" : "かう"
+                        "verboMasu" : "みます",
+                        "verboFV" : "みる"
+                    }
+                ]
+            },
+            {
+                "id" : 3,
+                "nombre" : "G3",
+                "norma" : "Especial",
+                "ejemplos" : [
+                    {
+                        "id" : 1,
+                        "verboMasu" : "します",
+                        "verboFV" : "する"
+                    },
+                    {
+                        "id" : 2,
+                        "verboMasu" : "きます",
+                        "verboFV" : "くる"
                     }
                 ]
             }

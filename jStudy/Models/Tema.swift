@@ -21,21 +21,21 @@ struct Palabra: Hashable, Codable, Identifiable {
     var significado: String
 }
 
-struct FormaVerbal {
+struct FormaVerbal: Hashable, Codable, Identifiable {
     var id: Int
     var nombre: String
     var grupos: [Grupo]
 }
 
-struct Grupo {
+struct Grupo: Hashable, Codable, Identifiable {
     var id: Int
     var nombre: String
-    var norma: String?
+    var norma: String
     var ejemplos: [EjemploFV]
 }
 
 ///Ejemplo forma verbal
-struct EjemploFV {
+struct EjemploFV: Hashable, Codable, Identifiable {
     var id: Int
     var verboMasu: String
     var verboFV: String
